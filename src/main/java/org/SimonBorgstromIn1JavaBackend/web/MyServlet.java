@@ -93,6 +93,7 @@ public class MyServlet extends HttpServlet {
 
            }
         }
+              resp.setStatus(resp.SC_OK);
 
     }
 
